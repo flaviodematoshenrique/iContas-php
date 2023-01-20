@@ -90,6 +90,7 @@ class ExpenseController extends Controller
 
         $attributes = $request->only([
             'name',
+            'title',
             'value',
             'paid',
             'due_date',
