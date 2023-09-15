@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name='csrf-token' content='{{ csrf_token() }}'>
 
-    <title>iConta$ | Controle de Gastos</title>
-    <link rel="icon" href="{{ asset('img/landing/favicon.png') }}">
+    <title>ReciclaOn | App de coleta de  Resíduos</title>
+    <link rel="icon" href="{{ asset('img/landing/recicla.png') }}">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <!-- themify CSS -->

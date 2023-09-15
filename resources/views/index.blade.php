@@ -4,11 +4,11 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="Nosso principal objetivo é que nossos clientes consigam controlar sua vida financeira. Essa jornada precisa ser agradável, por isso sempre estamos dispostos a ajudar." />
-        <meta name="keywords" content="financeiro, boletos, contas, online, finanças"/>
-        <meta name="author" content="Eduardo Nascimento"/>
-        <title>iConta$ | Controle de Gastos</title>
-        <link rel="icon" href="{{ asset('img/landing/favicon.png') }}">
+        <meta name="description" content="Nosso principal objetivo é que as pessoas consigam controlar o descarte do lixo de uma forma correta." />
+        <meta name="keywords" content="reciclagem, descarte, meio ambiente, online, coleta de lixo"/>
+        <meta name="author" content="Flávio De Matos Henrique"/>
+        <title>ReciclaOn | App de Coleta de Resíduos</title>
+        <link rel="icon" href="{{ asset('img/landing/recicla.png') }}">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
         <!-- themify CSS -->
@@ -23,8 +23,8 @@
                 <div class="row align-items-center">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg navbar-light">
-                            <a class="navbar-brand" href="/"> <img src="{{ asset('img/landing/logo.png') }}" width="34"
-                                    alt="logo"> iConta$
+                            <a class="navbar-brand" href="/"> <img src="{{ asset('img/landing/recicla.png') }}" width="34"
+                                    alt="logo"> ReciclaOn
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -45,7 +45,7 @@
                                         <a class="nav-link" href="#services">Serviços</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#doctors">Médicos</a>
+                                        <a class="nav-link" href="#doctors">Itens de Coleta</a>
                                     </li>
                                 </ul>
                             </div>
@@ -64,18 +64,17 @@
                     <div class="col-lg-5 col-xl-5">
                         <div class="banner_text">
                             <div class="banner_text_iner">
-                                <h5>Estamos aqui para você</h5>
-                                <h1>Controle Financeiro</h1>
-                                <p>Aqui na iConta$ você consegue controlar seus gastos
-                                    de um jeito muito fácil. Preservando seu tempo
-                                    para coisas que realmente valem a pena.</p>
-                                <a href="/login" class="btn_2">Controle seus gastos</a>
+                                <h5>Seu Aplicativo de Coleta de Resíduos!</h5>
+                                <h1>ReciclaOn</h1>
+                                <p><b>ReciclaOn</b> é uma aplicação que ajuda a cadastrar resíduos de coleta de lixo e ganhar com isso.
+                                Não se preocupe em entrar em contato com qualquer empresa para fazer a coleta dos resíduos, nós fazemos isso por você!</p>
+                                <a href="/login" class="btn_2">Cadastrar resíduos de coleta</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-7">
                         <div class="banner_img">
-                            <img src="{{ asset('img/landing/header-image.png') }}" alt="">
+                            <img src="{{ asset('img/landing/pagina-inicial.png') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -89,15 +88,15 @@
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-6 col-lg-6">
                         <div class="about_us_img">
-                            <img src="{{ asset('img/landing/about-image.png') }}" alt="">
+                            <img src="{{ asset('img/landing/home-background.svg') }}" alt="">
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-5">
                         <div class="about_us_text">
                             <h2>Sobre Nós</h2>
-                            <p>Nosso principal objetivo é que nossos clientes encontrem um método
-                                muito fácil e simples para controlar suas contas. Essa jornada
-                                precisa ser agradável, por isso sempre estamos dispostos a ajudar. </p>
+                            <p><b>Esse é um trabalho do Projeto Integrador - Univesp-2023</b></p>
+                            <p>Nosso principal objetivo é ajudar as pessoas de um modo
+                                muito fácil e simples a fazer o descarte correto e ganhar com isso.</p>
                             <div class="banner_item">
                                 <div class="single_item">
                                     <img src="{{ asset('img/landing/icon/banner_1.svg') }}" alt="">
@@ -137,9 +136,8 @@
                                     <i class="ti-credit-card"></i>
                                 </span>
                                 <h4>Contas</h4>
-                                <p>Adicione suas contas do mês
-                                    e controle seus prazos para
-                                    não atrasar.</p>
+                                <p>Adicione suas coletas do mês
+                                    e controle seus ganhos.</p>
                             </div>
                         </div>
                         <div class="single_feature">
@@ -148,7 +146,7 @@
                                     <i class="ti-check-box"></i>
                                 </span>
                                 <h4>Pagar</h4>
-                                <p>Quando pagar suas contas,
+                                <p>Quanto pagar nas suas coletas,
                                     adicione no sistema para
                                     não se preocupar mais.</p>
                             </div>
@@ -156,7 +154,7 @@
                     </div>
                     <div class="col-lg-4 col-sm-12">
                         <div class="single_feature_img">
-                            <img src="{{ asset('img/landing/services-image.png') }}" alt="">
+                            <img src="{{ asset('img/landing/back.avif') }}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-12">
@@ -167,7 +165,7 @@
                                 </span>
                                 <h4>Histórico</h4>
                                 <p>Tenha o histórico de
-                                    gastos todo mês sempre
+                                    coleta de forma
                                     muito simples.
                                 </p>
                             </div>
@@ -178,9 +176,9 @@
                                     <i class="ti-eye"></i>
                                 </span>
                                 <h4>Previsão</h4>
-                                <p>Veja a previsão de gastos
+                                <p>Veja a previsão de coleta
                                     do mês para melhorar seu
-                                    controle financeiro.</p>
+                                    controle.</p>
                             </div>
                         </div>
                     </div>
@@ -197,37 +195,37 @@
                         <div class="depertment_content">
                             <div class="row justify-content-center">
                                 <div class="col-xl-8">
-                                    <h2>Nossos Consultores</h2>
+                                    <h2>Itens de Coleta</h2>
                                     <div class="row">
                                         <div class="col-lg-4 col-sm-4">
-                                            <img class="img-shape" src="{{ asset('img/pictures/woman-1.jpg') }}" alt="doctor">
-                                            <h3>Adriana Galvão</h3>
-                                            <p>Trader</p>
+                                            <img class="img-shape" src="{{ asset('img/pictures/lampadas.svg') }}" alt="doctor">
+                                            <h3>Lâmpadas</h3>
+
                                         </div>
                                         <div class="col-lg-4 col-sm-4">
-                                            <img class="img-shape" src="{{ asset('img/pictures/man-1.jpg') }}" alt="doctor">
-                                            <h3>Manoel Corte Real</h3>
-                                            <p>Contador</p>
+                                            <img class="img-shape" src="{{ asset('img/pictures/baterias.svg') }}" alt="doctor">
+                                            <h3>Baterias</h3>
+
                                         </div>
                                         <div class="col-lg-4 col-sm-4">
-                                            <img class="img-shape" src="{{ asset('img/pictures/woman-2.jpg') }}" alt="doctor">
-                                            <h3>Cecília Nascimento</h3>
-                                            <p>Engenheira</p>
+                                            <img class="img-shape" src="{{ asset('img/pictures/papeis-papelao.svg') }}" alt="doctor">
+                                            <h3>Papeis e Papelão</h3>
+
                                         </div>
                                         <div class="col-lg-4 col-sm-4">
-                                            <img class="img-shape" src="{{ asset('img/pictures/man-2.jpg') }}" alt="doctor">
-                                            <h3>Matheus Novaes</h3>
-                                            <p>Trader</p>
+                                            <img class="img-shape" src="{{ asset('img/pictures/eletronicos.svg') }}" alt="doctor">
+                                            <h3>Resíduos Eletrônicos</h3>
+
                                         </div>
                                         <div class="col-lg-4 col-sm-4">
-                                            <img class="img-shape" src="{{ asset('img/pictures/woman-3.jpg') }}" alt="doctor">
-                                            <h3>Maria Conceição</h3>
-                                            <p>Contadora</p>
+                                            <img class="img-shape" src="{{ asset('img/pictures/organicos.svg') }}" alt="doctor">
+                                            <h3>Resíduos Orgânicos</h3>
+
                                         </div>
                                         <div class="col-lg-4 col-sm-4">
-                                            <img class="img-shape" src="{{ asset('img/pictures/man-3.jpg') }}" alt="doctor">
-                                            <h3>Francisco Cardoso</h3>
-                                            <p>Desenvolvedor</p>
+                                            <img class="img-shape" src="{{ asset('img/pictures/oleo.svg') }}" alt="doctor">
+                                            <h3>Óleo de Cozinha</h3>
+
                                         </div>
                                     </div>
                                 </div>

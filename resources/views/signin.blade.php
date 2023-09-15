@@ -17,7 +17,7 @@
                                 <div class="input-group mb-4">
                                     <input type="password" class="form-control" name="password" placeholder="Senha">
                                 </div>
-                                <button type="submit" class="btn_2 mb-3" style="border: none; width: 100%;">Enviar</button>
+                                <button type="submit" class="btn_2 mb-3" style="border: none; width: 100%;">Entrar</button>
                             </form>
                             <a class="button-link" href="/register">Registre-se</a>
                         </div>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="banner_img" style="display: flex;justify-content: center;">
-                        <img src="{{ asset('img/landing/auth-image.png') }}" alt="finance image" style="max-width: 80%;">
+                        <img src="{{ asset('img/landing/home-background.svg') }}" alt="finance image" style="max-width: 80%;">
                     </div>
                 </div>
             </div>

@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="banner_img" style="display: flex;justify-content: center;">
-                        <img src="{{ asset('img/landing/auth-image.png') }}" alt="finance image" style="max-width: 80%;">
+                        <img src="{{ asset('img/landing/home-background.svg') }}" alt="finance image" style="max-width: 80%;">
                     </div>
                 </div>
             </div>

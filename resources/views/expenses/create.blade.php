@@ -5,12 +5,12 @@
     <header class="main_menu home_menu">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light align-items-center justify-content-between pt-3">
-                <a class="navbar-brand" href="/dashboard"> <img src="{{ asset('img/landing/logo.png') }}" width="34"
-                        alt="logo"> iConta$
+                <a class="navbar-brand" href="/dashboard"> <img src="{{ asset('img/landing/recicla.png') }}" width="34"
+                        alt="logo"> ReciclaOn
                 </a>
 
                 <div style="display: flex; gap: 10px;">
-                    <a class="btn_2 d-lg-block" href="/expenses/create">Criar despesa</a>
+                    <a class="btn_2 d-lg-block" href="/expenses/create">Criar coleta</a>
                     <a class="btn_2 bg-red" href="/logout" style="padding: 16px;"><i class="ti-power-off"></i></a>
                 </div>
             </nav>
@@ -24,15 +24,15 @@
             <form action="/expenses" method="post">
                 @csrf
                 <div class="mb-3">
-                    <label for="title">Título</label>
-                    <input type="title" class="form-control" name="title" placeholder="Aluguel">
+                    <label for="title">Resíduos</label>
+                    <input type="title" class="form-control" name="title" placeholder="Lâmpadas, Baterias, Papeis e Papelão, Resíduos Eletrônicos, Resíduos Orgânicos, Óleo de Cozinha">
                 </div>
                 <div class="mb-3">
-                    <label for="value">Valor</label>
+                    <label for="value">Valor* (Valor máximo que pode pagar pela coleta)</label>
                     <input type="number" class="form-control" name="value" placeholder="500.00" step=".01">
                 </div>
                 <div class="mb-4">
-                    <label for="due_date">Vencimento</label>
+                    <label for="due_date">Vencimento (Data que deseja que alguém faça a coleta em sua residência)</label>
                     <input type="date" class="form-control" name="due_date">
                 </div>
                 <button type="submit" class="btn_2 mb-3" style="border: none; width: 100%;">Enviar</button>
